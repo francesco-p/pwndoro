@@ -31,10 +31,11 @@ SHO_PAUSE_LEN = 5*60
 LON_PAUSE_LEN = 15*60
 FILENAME = "work_done"
 
+#Testing purposes
 #TOMATO_LEN = 5
 #SHO_PAUSE_LEN = 3
 #LON_PAUSE_LEN = 4
-FILENAME = "test"
+#FILENAME = "test"
 
 
 
