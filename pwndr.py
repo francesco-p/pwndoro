@@ -89,7 +89,7 @@ def pause():
         seconds = 0
         while True:
             tick()
-            time.sleep(0.02)
+            time.sleep(1)
             seconds += 1
             if seconds % 60 == 0:
                 fancy_print(str(seconds // 60).zfill(2), rev=True, col=YEL, bld=True)
@@ -100,7 +100,7 @@ def pause():
         seconds = 0
         while True:
             tick()
-            time.sleep(0.02)
+            time.sleep(1)
             seconds += 1
             if seconds % 60 == 0:
                 fancy_print(str(seconds // 60).zfill(2), rev=True, col=YEL, bld=True)
@@ -127,7 +127,7 @@ def tomato():
     seconds = 0
     while True:
         tick()
-        time.sleep(0.01)
+        time.sleep(1)
         seconds += 1
         if seconds % 60 == 0:
             fancy_print(str(seconds // 60).zfill(2), rev=True, col=YEL, bld=True)
