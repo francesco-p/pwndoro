@@ -1,9 +1,11 @@
 # pwndoro
 
-Pomodoro technique timer: for nerds.
+Pomodoro technique timer for nerds.
 
-Uses `aplay` from ALSA.
+Uses: `aplay` from ALSA and `clear` 
 
-Demo: https://asciinema.org/a/13egkqaos4h06m668cbrogc8t
+To view the work done just `cat work_done`
 
-![img](https://i.imgur.com/FYz7ejz.png)
+Demo: https://asciinema.org/a/cpbef3aq24jfc7i3029wvc50v
+
+![img](https://i.imgur.com/YvuD7Pf.png)
