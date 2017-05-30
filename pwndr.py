@@ -25,12 +25,12 @@ WHT = b'\x1B[37m'
 TOMATO_LEN = 60*25
 SHORT_PAUSE = 5*60
 LONG_PAUSE = 15*60
-#FILENAME = "work_done"
-#SPEED = 1
+FILENAME = "work_done"
+SPEED = 1
 
 #Testing purposes
-FILENAME = "test"
-SPEED = 0.001
+#FILENAME = "test"
+#SPEED = 0.01
 
 def fancy_print(msg, rev=False, bld=False, col=RST):
     """ Prints some messages in a fancy style  """
@@ -128,7 +128,7 @@ def summary():
 def tomato():
     """ Performs a tomato """
 
-    fancy_print("Pwndoro {0} started focus now! Press ctrl-c to pause it\n".format(tomatoes+1),
+    fancy_print("Pwndoro {0} started focus now! Press ctrl-c to pause it or ctrl+\ to stop it\n".format(tomatoes+1),
                 bld=True, col=RED)
     cycle(TOMATO_LEN)
 
